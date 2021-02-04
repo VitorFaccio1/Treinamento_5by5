@@ -1,0 +1,13 @@
+C:\Users\Vitor Faccio\source\repos\laço_for\laço_for\bin\Debug\netcoreapp3.1\laço_for.exe
+C:\Users\Vitor Faccio\source\repos\laço_for\laço_for\bin\Debug\netcoreapp3.1\laço_for.deps.json
+C:\Users\Vitor Faccio\source\repos\laço_for\laço_for\bin\Debug\netcoreapp3.1\laço_for.runtimeconfig.json
+C:\Users\Vitor Faccio\source\repos\laço_for\laço_for\bin\Debug\netcoreapp3.1\laço_for.runtimeconfig.dev.json
+C:\Users\Vitor Faccio\source\repos\laço_for\laço_for\bin\Debug\netcoreapp3.1\laço_for.dll
+C:\Users\Vitor Faccio\source\repos\laço_for\laço_for\bin\Debug\netcoreapp3.1\laço_for.pdb
+C:\Users\Vitor Faccio\source\repos\laço_for\laço_for\obj\Debug\netcoreapp3.1\laço_for.csprojAssemblyReference.cache
+C:\Users\Vitor Faccio\source\repos\laço_for\laço_for\obj\Debug\netcoreapp3.1\laço_for.AssemblyInfoInputs.cache
+C:\Users\Vitor Faccio\source\repos\laço_for\laço_for\obj\Debug\netcoreapp3.1\laço_for.AssemblyInfo.cs
+C:\Users\Vitor Faccio\source\repos\laço_for\laço_for\obj\Debug\netcoreapp3.1\laço_for.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Faccio\source\repos\laço_for\laço_for\obj\Debug\netcoreapp3.1\laço_for.dll
+C:\Users\Vitor Faccio\source\repos\laço_for\laço_for\obj\Debug\netcoreapp3.1\laço_for.pdb
+C:\Users\Vitor Faccio\source\repos\laço_for\laço_for\obj\Debug\netcoreapp3.1\laço_for.genruntimeconfig.cache

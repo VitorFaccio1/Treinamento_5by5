@@ -1,0 +1,13 @@
+C:\Users\Vitor Faccio\source\repos\condicional_SE\condicional_SE\bin\Debug\netcoreapp3.1\condicional_SE.exe
+C:\Users\Vitor Faccio\source\repos\condicional_SE\condicional_SE\bin\Debug\netcoreapp3.1\condicional_SE.deps.json
+C:\Users\Vitor Faccio\source\repos\condicional_SE\condicional_SE\bin\Debug\netcoreapp3.1\condicional_SE.runtimeconfig.json
+C:\Users\Vitor Faccio\source\repos\condicional_SE\condicional_SE\bin\Debug\netcoreapp3.1\condicional_SE.runtimeconfig.dev.json
+C:\Users\Vitor Faccio\source\repos\condicional_SE\condicional_SE\bin\Debug\netcoreapp3.1\condicional_SE.dll
+C:\Users\Vitor Faccio\source\repos\condicional_SE\condicional_SE\bin\Debug\netcoreapp3.1\condicional_SE.pdb
+C:\Users\Vitor Faccio\source\repos\condicional_SE\condicional_SE\obj\Debug\netcoreapp3.1\condicional_SE.csprojAssemblyReference.cache
+C:\Users\Vitor Faccio\source\repos\condicional_SE\condicional_SE\obj\Debug\netcoreapp3.1\condicional_SE.AssemblyInfoInputs.cache
+C:\Users\Vitor Faccio\source\repos\condicional_SE\condicional_SE\obj\Debug\netcoreapp3.1\condicional_SE.AssemblyInfo.cs
+C:\Users\Vitor Faccio\source\repos\condicional_SE\condicional_SE\obj\Debug\netcoreapp3.1\condicional_SE.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Faccio\source\repos\condicional_SE\condicional_SE\obj\Debug\netcoreapp3.1\condicional_SE.dll
+C:\Users\Vitor Faccio\source\repos\condicional_SE\condicional_SE\obj\Debug\netcoreapp3.1\condicional_SE.pdb
+C:\Users\Vitor Faccio\source\repos\condicional_SE\condicional_SE\obj\Debug\netcoreapp3.1\condicional_SE.genruntimeconfig.cache

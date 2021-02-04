@@ -1,0 +1,13 @@
+C:\Users\Vitor Faccio\source\repos\numero_primos\numero_primos\bin\Debug\netcoreapp3.1\numero_primos.exe
+C:\Users\Vitor Faccio\source\repos\numero_primos\numero_primos\bin\Debug\netcoreapp3.1\numero_primos.deps.json
+C:\Users\Vitor Faccio\source\repos\numero_primos\numero_primos\bin\Debug\netcoreapp3.1\numero_primos.runtimeconfig.json
+C:\Users\Vitor Faccio\source\repos\numero_primos\numero_primos\bin\Debug\netcoreapp3.1\numero_primos.runtimeconfig.dev.json
+C:\Users\Vitor Faccio\source\repos\numero_primos\numero_primos\bin\Debug\netcoreapp3.1\numero_primos.dll
+C:\Users\Vitor Faccio\source\repos\numero_primos\numero_primos\bin\Debug\netcoreapp3.1\numero_primos.pdb
+C:\Users\Vitor Faccio\source\repos\numero_primos\numero_primos\obj\Debug\netcoreapp3.1\numero_primos.csprojAssemblyReference.cache
+C:\Users\Vitor Faccio\source\repos\numero_primos\numero_primos\obj\Debug\netcoreapp3.1\numero_primos.AssemblyInfoInputs.cache
+C:\Users\Vitor Faccio\source\repos\numero_primos\numero_primos\obj\Debug\netcoreapp3.1\numero_primos.AssemblyInfo.cs
+C:\Users\Vitor Faccio\source\repos\numero_primos\numero_primos\obj\Debug\netcoreapp3.1\numero_primos.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Faccio\source\repos\numero_primos\numero_primos\obj\Debug\netcoreapp3.1\numero_primos.dll
+C:\Users\Vitor Faccio\source\repos\numero_primos\numero_primos\obj\Debug\netcoreapp3.1\numero_primos.pdb
+C:\Users\Vitor Faccio\source\repos\numero_primos\numero_primos\obj\Debug\netcoreapp3.1\numero_primos.genruntimeconfig.cache
