@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vitor Faccio\\source\\repos\\condicional_SE\\condicional_SE\\condicional_SE.csproj",
+      "projectUniqueName": "C:\\Users\\Vitor Faccio\\Desktop\\treinamento_5by5\\condicional_SE\\condicional_SE\\condicional_SE.csproj",
       "projectName": "condicional_SE",
-      "projectPath": "C:\\Users\\Vitor Faccio\\source\\repos\\condicional_SE\\condicional_SE\\condicional_SE.csproj",
+      "projectPath": "C:\\Users\\Vitor Faccio\\Desktop\\treinamento_5by5\\condicional_SE\\condicional_SE\\condicional_SE.csproj",
       "packagesPath": "C:\\Users\\Vitor Faccio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vitor Faccio\\source\\repos\\condicional_SE\\condicional_SE\\obj\\",
+      "outputPath": "C:\\Users\\Vitor Faccio\\Desktop\\treinamento_5by5\\condicional_SE\\condicional_SE\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Vitor Faccio\\AppData\\Roaming\\NuGet\\NuGet.Config",

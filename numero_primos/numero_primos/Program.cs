@@ -6,27 +6,29 @@ namespace numero_primos
     {
         static void Main(string[] args)
         {
-            int numero;
-            int divisores = 0;
 
-            Console.WriteLine("informe um numero: ");
-            numero = int.Parse(Console.ReadLine());
+            int i = 0 ;
+            int soma = 0;
 
-            for (int i = 1; i <= numero; i++)
+
+
+
+
+            for (int i > 0; i <= 500; i++)
             {
-                if(numero % i == 0)
+                if(i % 2 == 1)&&(i % 3 == 0)
                 {
-                    divisores++;
+                    Console.WriteLine(i);
+                    soma = soma + i;
                 }
+                Console.WriteLine("oi");
             }
-            if(divisores == 2)
-            {
-                Console.WriteLine("É um numero primo!");
-            }
-            else
-            {
-                Console.WriteLine("Não é um numero primo!");
-            }
+
+            
+            
+            Console.ReadKey();
+
+            
         }
     }
 }

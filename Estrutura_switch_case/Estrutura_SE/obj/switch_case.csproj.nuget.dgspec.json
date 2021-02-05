@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vitor Faccio\\source\\repos\\Estrutura_SE\\Estrutura_SE\\switch_case.csproj": {}
+    "C:\\Users\\Vitor Faccio\\Desktop\\treinamento_5by5\\Estrutura_SE\\Estrutura_SE\\switch_case.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vitor Faccio\\source\\repos\\Estrutura_SE\\Estrutura_SE\\switch_case.csproj": {
+    "C:\\Users\\Vitor Faccio\\Desktop\\treinamento_5by5\\Estrutura_SE\\Estrutura_SE\\switch_case.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vitor Faccio\\source\\repos\\Estrutura_SE\\Estrutura_SE\\switch_case.csproj",
+        "projectUniqueName": "C:\\Users\\Vitor Faccio\\Desktop\\treinamento_5by5\\Estrutura_SE\\Estrutura_SE\\switch_case.csproj",
         "projectName": "switch_case",
-        "projectPath": "C:\\Users\\Vitor Faccio\\source\\repos\\Estrutura_SE\\Estrutura_SE\\switch_case.csproj",
+        "projectPath": "C:\\Users\\Vitor Faccio\\Desktop\\treinamento_5by5\\Estrutura_SE\\Estrutura_SE\\switch_case.csproj",
         "packagesPath": "C:\\Users\\Vitor Faccio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vitor Faccio\\source\\repos\\Estrutura_SE\\Estrutura_SE\\obj\\",
+        "outputPath": "C:\\Users\\Vitor Faccio\\Desktop\\treinamento_5by5\\Estrutura_SE\\Estrutura_SE\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vitor Faccio\\AppData\\Roaming\\NuGet\\NuGet.Config",

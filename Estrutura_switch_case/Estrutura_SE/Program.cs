@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Estrutura_SE
+namespace Estrutura_switch_case
 {
     class Program
     {

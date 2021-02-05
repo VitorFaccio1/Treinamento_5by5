@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vitor Faccio\\source\\repos\\numero_primos\\numero_primos\\numero_primos.csproj": {}
+    "C:\\Users\\Vitor Faccio\\Desktop\\treinamento_5by5\\numero_primos\\numero_primos\\numero_primos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vitor Faccio\\source\\repos\\numero_primos\\numero_primos\\numero_primos.csproj": {
+    "C:\\Users\\Vitor Faccio\\Desktop\\treinamento_5by5\\numero_primos\\numero_primos\\numero_primos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vitor Faccio\\source\\repos\\numero_primos\\numero_primos\\numero_primos.csproj",
+        "projectUniqueName": "C:\\Users\\Vitor Faccio\\Desktop\\treinamento_5by5\\numero_primos\\numero_primos\\numero_primos.csproj",
         "projectName": "numero_primos",
-        "projectPath": "C:\\Users\\Vitor Faccio\\source\\repos\\numero_primos\\numero_primos\\numero_primos.csproj",
+        "projectPath": "C:\\Users\\Vitor Faccio\\Desktop\\treinamento_5by5\\numero_primos\\numero_primos\\numero_primos.csproj",
         "packagesPath": "C:\\Users\\Vitor Faccio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vitor Faccio\\source\\repos\\numero_primos\\numero_primos\\obj\\",
+        "outputPath": "C:\\Users\\Vitor Faccio\\Desktop\\treinamento_5by5\\numero_primos\\numero_primos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Vitor Faccio\\AppData\\Roaming\\NuGet\\NuGet.Config",
