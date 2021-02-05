@@ -19,15 +19,22 @@ namespace exercicio2
             Console.WriteLine("Informe o tabuada");
             tabuada = int.Parse(Console.ReadLine());
 
-            for (contador  =  inicio; contador <= fim; contador++)
+           if(inicio < fim)
             {
-                resultado = tabuada * contador;
-                Console.WriteLine($"{tabuada} x {contador} = {resultado} ");
-                soma += resultado;
+                for (contador = inicio; contador <= fim; contador++)
+                {
+                    resultado = tabuada * contador;
+                    Console.WriteLine($"{tabuada} x {contador} = {resultado} ");
+                    soma += resultado;
+                }
             }
+            else
+            {
+                Console.Write("Informe um inicio MENOR que o final!");
+            }
+          
 
             Console.WriteLine(soma);
-
             Console.ReadKey();
 
             
