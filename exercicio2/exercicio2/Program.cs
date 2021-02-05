@@ -10,7 +10,7 @@ namespace exercicio2
     {
         static void Main(string[] args)
         {
-            int inicio, fim, contador, tabuada, resultado, soma = 0;
+            int inicio, fim, contador, tabuada, soma = 0;
 
             Console.WriteLine("Informe o inicio");
             inicio = int.Parse(Console.ReadLine());
@@ -26,6 +26,8 @@ namespace exercicio2
 
             for (contador = inicio; contador <= fim; contador++)
             {
+                int resultado;
+
                 resultado = tabuada * contador;
                 Console.WriteLine($"{tabuada} x {contador} = {resultado} ");
                 soma += resultado;
