@@ -1,0 +1,7 @@
+C:\Users\Vitor Faccio\source\repos\exercicio2_array\exercicio2_array\bin\Debug\exercicio2_array.exe.config
+C:\Users\Vitor Faccio\source\repos\exercicio2_array\exercicio2_array\bin\Debug\exercicio2_array.exe
+C:\Users\Vitor Faccio\source\repos\exercicio2_array\exercicio2_array\bin\Debug\exercicio2_array.pdb
+C:\Users\Vitor Faccio\source\repos\exercicio2_array\exercicio2_array\obj\Debug\exercicio2_array.csprojAssemblyReference.cache
+C:\Users\Vitor Faccio\source\repos\exercicio2_array\exercicio2_array\obj\Debug\exercicio2_array.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Faccio\source\repos\exercicio2_array\exercicio2_array\obj\Debug\exercicio2_array.exe
+C:\Users\Vitor Faccio\source\repos\exercicio2_array\exercicio2_array\obj\Debug\exercicio2_array.pdb
