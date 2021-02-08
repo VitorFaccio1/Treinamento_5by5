@@ -1,7 +1,0 @@
-C:\Users\Vitor Faccio\source\repos\array_vetores\array_vetores\bin\Debug\array_vetores.exe.config
-C:\Users\Vitor Faccio\source\repos\array_vetores\array_vetores\bin\Debug\array_vetores.exe
-C:\Users\Vitor Faccio\source\repos\array_vetores\array_vetores\bin\Debug\array_vetores.pdb
-C:\Users\Vitor Faccio\source\repos\array_vetores\array_vetores\obj\Debug\array_vetores.csprojAssemblyReference.cache
-C:\Users\Vitor Faccio\source\repos\array_vetores\array_vetores\obj\Debug\array_vetores.csproj.CoreCompileInputs.cache
-C:\Users\Vitor Faccio\source\repos\array_vetores\array_vetores\obj\Debug\array_vetores.exe
-C:\Users\Vitor Faccio\source\repos\array_vetores\array_vetores\obj\Debug\array_vetores.pdb
