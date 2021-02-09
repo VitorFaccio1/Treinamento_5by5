@@ -17,7 +17,7 @@ namespace fibonacci
 
             do	{
 
-                Console.WriteLine("Informe um valor de parada: ");
+                Console.WriteLine("Informe um valor de parada (maior que 2 e menor que 30): ");
                 para = int.Parse(Console.ReadLine());
          	} while (para<2 || para>30);
 
