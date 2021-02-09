@@ -12,11 +12,11 @@ namespace exercicio3_array
         {
             int [] x = new int [10];
             int aux;
-            int i = 0;
+            
 
             Console.WriteLine("Informe 10 valores: ");
 
-            for (; i < x.Length; i++)
+            for (int i=0; i < x.Length; i++)
             {
                 Console.WriteLine("Informe o " + (i+1) + "º valor: ");
                 x[i] = int.Parse(Console.ReadLine());
@@ -32,9 +32,9 @@ namespace exercicio3_array
                     }
                 }
             }
-            for (int k = 0; k < x.Length; k++)
+            for (int cont = 0; cont < x.Length; cont++)
             {
-                Console.Write(x[k]+"-");
+                Console.Write(x[cont]+"-");
             }         
             Console.ReadKey();
             
