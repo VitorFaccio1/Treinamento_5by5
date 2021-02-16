@@ -44,6 +44,9 @@ namespace Exemplo_Classe1
         #region Exemplo 3 - propriedade c#
         public int Idade { get; set; }
         #endregion
+
+        public Endereco endereco;
+
         public override string ToString()
         {
             return ($"Id: {this.id}, Nome: {nome} e idade: {Idade} ");

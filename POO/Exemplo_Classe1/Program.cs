@@ -18,11 +18,28 @@ namespace Exemplo_Classe1
                 Idade= 12
                 };
 
+            p2.endereco = new Endereco {Logradouro = "Rua Humaita", Numero = 12, Localidade =  "Araraquara" };
+
+
+            Pessoa p3 = new Pessoa
+            {
+                id = 99,
+                Nome = "jose",
+                Idade = 400,
+                endereco = new Endereco
+                {
+                    Logradouro = "Rua sao bento",
+                    Numero = 123,
+                    Localidade = "araraquara"
+                }   
+            };
+
             Console.WriteLine(p);
             Console.WriteLine(p.ToString());
             
             Console.WriteLine();
             Console.WriteLine(p2.ToString());
+            Console.WriteLine(p3.endereco.Localidade);
             Console.WriteLine();
 
             Console.WriteLine("Apos instanciar o objeto ID: {0}", p.GetId());
