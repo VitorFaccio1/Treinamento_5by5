@@ -60,6 +60,7 @@ namespace Pilha_Dinamica_Simplesmente_Encadeada
 
         public void Busca(Livro[] livros, int contador)
         {
+            bool achou = true;
             string titulo;
             Console.WriteLine("Qual titulo você quer buscar: ");
             titulo = Console.ReadLine().Trim(' ').ToLower();
@@ -68,13 +69,14 @@ namespace Pilha_Dinamica_Simplesmente_Encadeada
             {
                 if(livros[i].Titulo == titulo)
                 {
-                    Console.WriteLine("\nTem esse livro!\n");
-                }
-                else
-                {
-                    Console.WriteLine("\nNao tem esse livro!\n");
-                }
+                    Console.WriteLine("\nTem esse livro! E ele esta na posição: " + i + "\n");
+                    achou = false;
+                }               
             }         
+            if (achou)
+            {
+                Console.WriteLine("\nNao temos esse livro\n");
+            }
             return;
         }
 
