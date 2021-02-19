@@ -54,7 +54,7 @@ namespace Exemplo_Fila_Dinamica_Simplesmente_Encadeada
             }
         }
 
-        public void Pop(int contador)
+        public void Pop(ref int contador)
         {
             if (Vazia())
             {
@@ -66,8 +66,8 @@ namespace Exemplo_Fila_Dinamica_Simplesmente_Encadeada
                 if (Head == null)
                 {
                     Tail = null;
-                    contador--;
                 }
+                contador--;
                 Console.WriteLine("\nElemento apagado com sucesso!!!\n");
             }
         }
@@ -104,7 +104,7 @@ namespace Exemplo_Fila_Dinamica_Simplesmente_Encadeada
 
         }
 
-        public void Buscar(OrdemServico[] os, int contador, int id)
+        public void Buscar(OrdemServico[] os,ref int contador, int id)
         {
             bool achou = false;
 

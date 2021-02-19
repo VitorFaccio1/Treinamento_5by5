@@ -13,10 +13,7 @@ namespace Exemplo_Fila_Dinamica_Simplesmente_Encadeada
             Menu();
             Console.WriteLine("PRESS ANY KEY TO CONTINUE");
             Console.ReadKey();
-        }
-
-        
-
+        }       
         static public void Menu()
         {
             FilaOrdemServico filaos = new FilaOrdemServico();
@@ -46,7 +43,7 @@ namespace Exemplo_Fila_Dinamica_Simplesmente_Encadeada
                         }
                     case "2":
                         {
-                            filaos.Pop(contador);                            
+                            filaos.Pop(ref contador);                            
                             break;
                         }
                     case "3":
@@ -67,7 +64,7 @@ namespace Exemplo_Fila_Dinamica_Simplesmente_Encadeada
                             {
                                 Console.WriteLine("Qual o numero do elemento na lista");
                                 id = int.Parse(Console.ReadLine());
-                                filaos.Buscar(os, contador, id);
+                                filaos.Buscar(os, ref contador, id);
                             }
                             else
                             {
