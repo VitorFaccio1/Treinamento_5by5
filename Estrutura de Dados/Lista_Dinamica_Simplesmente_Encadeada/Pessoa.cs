@@ -4,19 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lista_Dinamica_Simplesmente_Encadeada
+namespace PListaDinSimEnc
 {
     class Pessoa
     {
-        public Telefone[] telefone { get; set; }
         public string Nome { get; set; }
+        public Telefone[] telefone { get; set; }
         public Pessoa Proximo { get; set; }
 
         public override string ToString()
         {
-            return $"------DADOS DO CONTATO------\n" +
-                $"Nome: {Nome}" +
-                $"telefone: {telefone} ";
+            string fones = "";
+            foreach (Telefone t in telefone)
+                fones = fones + t.ToString();
+            return "\n>>DADOS DO CONTATO<<<\nNome:" + Nome + "\n" + fones;
         }
     }
 }
