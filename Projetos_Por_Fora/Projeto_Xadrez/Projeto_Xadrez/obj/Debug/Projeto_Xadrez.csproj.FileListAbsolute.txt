@@ -1,0 +1,7 @@
+C:\Users\Vitor Faccio\source\repos\Projeto_Xadrez\Projeto_Xadrez\bin\Debug\Projeto_Xadrez.exe.config
+C:\Users\Vitor Faccio\source\repos\Projeto_Xadrez\Projeto_Xadrez\bin\Debug\Projeto_Xadrez.exe
+C:\Users\Vitor Faccio\source\repos\Projeto_Xadrez\Projeto_Xadrez\bin\Debug\Projeto_Xadrez.pdb
+C:\Users\Vitor Faccio\source\repos\Projeto_Xadrez\Projeto_Xadrez\obj\Debug\Projeto_Xadrez.csprojAssemblyReference.cache
+C:\Users\Vitor Faccio\source\repos\Projeto_Xadrez\Projeto_Xadrez\obj\Debug\Projeto_Xadrez.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Faccio\source\repos\Projeto_Xadrez\Projeto_Xadrez\obj\Debug\Projeto_Xadrez.exe
+C:\Users\Vitor Faccio\source\repos\Projeto_Xadrez\Projeto_Xadrez\obj\Debug\Projeto_Xadrez.pdb
