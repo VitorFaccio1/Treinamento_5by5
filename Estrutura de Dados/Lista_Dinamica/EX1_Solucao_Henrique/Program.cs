@@ -41,9 +41,17 @@ namespace Solucao_Henrique
                         break;
 
                     case "3":
-                        Console.WriteLine("Qual nome do contato que voce quer buscar: ");
-                        nome = Console.ReadLine();
-                        meusContatos.Localizar(nome);
+                        if (meusContatos.EhVazia)
+                        {
+                            Console.WriteLine("\nInsira alguem na lista primeiro para depois procurar\n");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Qual nome do contato que voce quer buscar: ");
+                            nome = Console.ReadLine();
+                            meusContatos.Localizar(nome);
+                        }
+                        
                         break;
 
                     case "4":
