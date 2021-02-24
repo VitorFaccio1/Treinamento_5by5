@@ -39,6 +39,14 @@ namespace Exemplo2_Lista
             listaPessoa = listaPessoa.OrderBy(lp => lp.Idade).ToList();
             listaPessoa.ForEach(i => Console.WriteLine(i.ToString()));
 
+            Console.WriteLine("\nA lista ordenada descresente por nome: ");
+            listaPessoa = listaPessoa.OrderByDescending(lp => lp.Nome).ToList();
+            listaPessoa.ForEach(i => Console.WriteLine(i.ToString()));
+
+            Console.WriteLine("\nA lista ordenada descresente por idade: ");
+            listaPessoa = listaPessoa.OrderByDescending(lp => lp.Idade).ToList();
+            listaPessoa.ForEach(i => Console.WriteLine(i.ToString()));
+
 
 
             Console.ReadKey();
