@@ -17,7 +17,6 @@ namespace Exercicio2_Lista
             Menu(listaTelefonica);
             Console.ReadKey();
         }
-
         static void Menu(List<Pessoa> listaTelefonica)
         {
             Pessoa person = new Pessoa();
@@ -74,7 +73,6 @@ namespace Exercicio2_Lista
                 }
             } while (escolha != "0");
         }
-
         static List<Pessoa> Inserir(List<Pessoa> listaTelefonica)
         {
 
@@ -113,7 +111,6 @@ namespace Exercicio2_Lista
             } while (adicionar.ToUpper() != "N");
             return listaTelefonica;
         }
-
         static Pessoa Localizar(List<Pessoa> listaTelefonica)
         {
             string nome;
@@ -143,7 +140,6 @@ namespace Exercicio2_Lista
             }
             return encontrado;
         }
-
         static void Remover(List<Pessoa> listaTelefonica, Pessoa person)
         {
 
@@ -168,7 +164,6 @@ namespace Exercicio2_Lista
                     Console.WriteLine("\nVocê nao possui esse contato\n");
             }
         }
-
         static void Imprimir(List<Pessoa> listaTelefonica)
         {
             if (listaTelefonica.Count == 0)
@@ -179,7 +174,6 @@ namespace Exercicio2_Lista
                 listaTelefonica.ForEach(i => Console.WriteLine(i));
 
         }
-
         static void Print1a1(List<Pessoa> listaTelefonica)
         {
 
@@ -211,7 +205,6 @@ namespace Exercicio2_Lista
             }
 
         }
-
         static void EscreverTxt(List<Pessoa> listaTelefonica)
         {
             using (StreamWriter escreverTxt = new StreamWriter("contatos.txt"))
@@ -228,10 +221,9 @@ namespace Exercicio2_Lista
 
             }
         }
-
         static void Lertxt(List<Pessoa> listaTelefonica)
         {
-            try
+            if (File.Exists("contatos.txt"))
             {
                 using (StreamReader stream = new StreamReader("contatos.txt"))
                 {
@@ -259,6 +251,7 @@ namespace Exercicio2_Lista
                         else if (campos[0] == "Tipo")
                         {
                             tipo = campos[1];
+
                             person.telefone = new Telefone[] { new Telefone() { DDD = ddd, Numero = numero, Tipo = tipo } };
                             listaTelefonica.Add(person);
                         }
@@ -266,20 +259,9 @@ namespace Exercicio2_Lista
                         {
                             person = new Pessoa();
                         }
-
                     }
-
-
-
                 }
-            }
-            catch (Exception )
-            {
-
-            }
-            
+            }                                    
         }
-
-
     }
 }
