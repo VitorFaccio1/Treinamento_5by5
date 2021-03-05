@@ -1,0 +1,20 @@
+use Exemplo1;
+set dateformat dmy;
+
+create table Cliente
+(
+	id int not null primary key,
+	nome varchar(50) not null,
+	cpf char(11) not null,
+	data_nasc date,
+	constraint  cpf_unico unique(cpf)
+);
+
+
+select id,nome,cpf,data_nasc from Cliente ;
+
+insert into Cliente (id,nome,cpf,data_nasc) values 
+(
+	1,'vitor','48993591873','14/11/2002',
+	2,'Fabio','11111111111','30/01/2002'
+);
