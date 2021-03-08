@@ -1,0 +1,158 @@
+create table Cliente
+(
+	cod_cliente int not null primary key,
+	nome varchar(50) not null,
+	endereco_localidade varchar(20) not null,
+	endereco_logradouro varchar(30) not null,
+	endereco_numero int not null,
+	endereco_complemento varchar(20) not null,
+	endereco_uf char(2) not null,
+	endereco_cep char(8) not null,
+	endereco_bairro varchar(20) not null
+);
+
+
+create table Telefone_Cliente
+(
+	cod_cliente_fone int not null,
+	fone char(11) not null,
+	tipo varchar(10),
+	constraint pk_fone_cli primary key (cod_cliente_fone,fone),
+	constraint fk_fone_cli foreign key (cod_cliente_fone) references Cliente(cod_cliente)
+);
+
+
+create table Cliente_Fisica
+(
+	cod_cliente_fisico int not null primary key,
+	cpf char(11)not null,
+	rg varchar(9)not null,
+	sexo char(1)not null,
+	data_nasc date not null,
+	constraint cpf_unico unique (cpf),
+	constraint fk_cpf foreign key (cod_cliente_fisico) references Cliente(cod_cliente)
+);
+
+create table Cliente_Juridico
+(
+	cod_cliente_juridico int not null primary key,
+	cnpj char(14) not null,
+	nome_resp varchar(50) not null,
+	insc_est varchar(50) not null,
+	constraint cnpj_unico unique(cnpj),
+	constraint fk_cnpj foreign key(cod_cliente_juridico) references Cliente(cod_cliente)
+);
+
+create table Funcionario
+(
+	cod_funcionario int not null primary key,
+	cpf char(11)not null,
+	funcao varchar(15) not null,
+	nome varchar(30)not null,
+	departamento varchar(15) not null,
+	endereco_localidade varchar(20) not null,
+	endereco_logradouro varchar(30) not null,
+	endereco_numero int not null,
+	endereco_complemento varchar(20) not null,
+	endereco_uf char(2) not null,
+	endereco_cep char(8) not null,
+	endereco_bairro varchar(20) not null
+	constraint cpf_unico_funcionario unique(cpf)
+);
+
+create table Tel_Funcionario
+(
+	cod_funcionario_fone int not null,
+	fone char(11) not null,
+	tipo varchar(10),
+	constraint pk_fone_funcionario primary key(cod_funcionario_fone, fone),
+	constraint fk_fone_funcionario foreign key(cod_funcionario_fone) references Funcionario(cod_funcionario)
+);
+
+create table Venda
+(
+	cod_venda int not null primary key,
+	cod_pagamento varchar(20) not null,
+	data_venda date,
+	valor_venda varchar(10) not null,
+	cod_funcionario int not null,
+	cod_cliente int not null,
+	
+	constraint fk_cod_funcionario foreign key(cod_funcionario) references Funcionario(cod_funcionario),
+	constraint fk_cod_cliente foreign key(cod_cliente) references Cliente(cod_cliente),
+);
+
+create table Produto
+(
+	cod_produto int not null primary key,
+	descricao varchar(20) not null,
+	preco_venda varchar(10)not null,
+	preco_custo varchar(10)not null,
+	tipo varchar(15) not null,
+	qtd_minima int not null,
+	qtd_estoque int not null,
+);
+
+create table Item_Venda
+(
+	cod_venda int not null,
+	cod_produto int not null,
+	qtd_item int not null,
+	valor_item varchar(10)not null
+	constraint pk_item_venda primary key (cod_venda,cod_produto),
+	constraint fk_codigo_venda foreign key(cod_venda) references Venda(cod_venda),
+	constraint fk_codigo_produto foreign key(cod_produto) references Produto(cod_produto)
+);
+
+create table Fornecedor
+(
+	cnpj char(14) not null primary key,
+	insc_est varchar(20)not null,
+	nome_resp varchar(20)not null,
+	razao_social varchar(50)not null,
+	endereco_localidade varchar(20) not null,
+	endereco_logradouro varchar(30) not null,
+	endereco_numero int not null,
+	endereco_complemento varchar(20) not null,
+	endereco_uf char(2) not null,
+	endereco_cep char(8) not null,
+	endereco_bairro varchar(20) not null
+);
+
+create table Compra
+(
+	num_compra int not null primary key,
+	cod_pagamento varchar(10) not null,
+	data_compra date,
+	valor_compra varchar(10) not null,
+	cnpj char(14) not null,
+	constraint fk_cnpj_compra foreign key(cnpj) references Fornecedor(cnpj)
+);
+
+create table Item_Compra
+(
+	num_compra int not null,
+	cod_produto int not null,
+	qtd_item int not null,
+	valor_item varchar(10) not null,
+
+	constraint pk_item_compra primary key(num_compra,cod_produto),
+	constraint fk_num_compra foreign key (num_compra) references Compra(num_compra),
+	constraint fk_cod_produto foreign key(cod_produto) references Produto(cod_produto)	
+);
+
+create table Telefone_Fornecedor
+(
+	numero varchar(11) not null,
+	cnpj char(14) not null,
+	tipo varchar(15) not null,
+	constraint pk_tel_fornecedor primary key(numero,cnpj),
+	constraint fk_cnpj_fornecedor foreign key(cnpj) references Fornecedor (cnpj)
+);
+
+
+
+
+
+
+

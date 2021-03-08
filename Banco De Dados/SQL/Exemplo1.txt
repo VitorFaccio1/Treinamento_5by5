@@ -10,11 +10,40 @@ create table Cliente
 	constraint  cpf_unico unique(cpf)
 );
 
+create table Fone_Cliente
+(
+	id_cli int not null,
+	fone char(11) not null,
+	tipo varchar(10),
+	constraint pk_fone_cli primary key (id_cli,fone),
+	constraint fk_fone_cli foreign key (id_cli) references Cliente(id)
+);
+
 
 select id,nome,cpf,data_nasc from Cliente ;
 
 insert into Cliente (id,nome,cpf,data_nasc) values 
 (
 	1,'vitor','48993591873','14/11/2002',
-	2,'Fabio','11111111111','30/01/2002'
+	2,'Fabio','11111111111','30/01/2002',
+	5,'Rita', '22222222222','03/01/2002'
 );
+
+insert into Fone_Cliente values (1, '16996280697','comercial')
+insert into Fone_Cliente values (1, '16991756423','celular')
+insert into Fone_Cliente values (2, '16389123921','celular')
+insert into Fone_Cliente values (2, '13123123123','casa')
+
+
+select id_cli, fone,tipo from Fone_Cliente;
+
+select c.id, c.nome, fc.fone from Cliente c right join Fone_Cliente fc on c.id = fc.id_cli;
+
+select c.id, c.nome, fc.fone from Cliente c left join Fone_Cliente fc on c.id = fc.id_cli;
+
+select c.id, c.nome, fc.fone from Cliente c left join Fone_Cliente fc on c.id = fc.id_cli where fc.fone is null;
+
+select c.id, c.nome, fc.fone from Cliente c, Fone_Cliente fc where c.id = fc.id_cli;
+
+
+
