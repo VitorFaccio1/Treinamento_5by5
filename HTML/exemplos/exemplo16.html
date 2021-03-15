@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Exemplo 16</title>
+        <style>
+            table{
+                width: 100%;
+            }
+
+            table,th,tr{
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+
+            th,td{
+                padding: 5px;
+                text-align: left;
+            }
+
+            table#t01 tr:nth-child(even){
+                background-color: #eee;
+            }
+
+            table#t01 tr:nth-child(odd){
+                background-color: #fff;
+            }            
+            table#t01 th{
+                background-color: black;
+                color: white;
+            }
+
+        </style>
+    </head>
+    <body>
+        <table id =t01>
+            <th>
+                <th>Codigo</th>
+                <th>Nome</th>
+                <th>Telefone</th>
+            </th>
+            <tr>
+                <td>1</td>
+                <td>vitor</td>
+                <td>16 996280697</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>luiz</td>
+                <td>16 123123124</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>fabio</td>
+                <td>16 123123124</td>
+            </tr>
+        </table>
+    </body>
+</html>
