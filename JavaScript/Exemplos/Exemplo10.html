@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 10</title>
+</head>
+<body>
+    <h1>Teste for</h1>
+
+    <p id="demo"></p>
+    <p id="oi"></p>
+
+    <script>
+        var cars = ["HB20","CRETA","GOL","ONIX","CAMARO"]
+        /*var i,len,text;
+        for (let i= 0, len = cars.length, text = ""; i < len; i++) {
+                text += cars[i] + "<br>"            
+        }
+        document.getElementById("demo").innerHTML = text;*/
+
+        var text = ""
+        for(var key in cars){
+            text += key + "<br>"
+        }
+        document.getElementById("oi").innerHTML = text;
+
+        var text = ""
+        for(var key in cars){
+            text += cars[key] + "<br>"
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+</body>
+</html>

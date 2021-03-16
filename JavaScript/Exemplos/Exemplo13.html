@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 13</title>
+</head>
+<body>  
+    <div>
+        <form action="">
+            <table>
+                <tr>
+                    <th>CEP</th>
+                    <th>logradouro</th>
+                    <th>Bairro</th>
+                    <th>Cidade</th>
+                    <th>Estado(UF)</th>
+                </tr>
+                <tr>
+                    <td><input type="text" id="cep" placeholder="digite o cep" 
+                    style="background-color: yellow;"></td>
+                    <td><input type="text" id="logradouro" name="logradouro" size="70"></td>
+                    <td><input type="text" id="bairro" name="bairro"></td>
+                    <td><input type="text" id="cidade" name="cidade"></td>
+                    <td><input type="text" id="uf" name="uf"></td>
+                    <td><input type="button" value="consultar" onclick="findCEP()"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+<script src="/scripts/scriptEx13.js"></script>
+</html>
