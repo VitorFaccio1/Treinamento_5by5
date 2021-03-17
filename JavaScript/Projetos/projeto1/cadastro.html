@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Cadastro 5by5</title>
+</head>
+
+<body>
+    
+    <h1 style='text-align: center;'>Cadastro 5by5</h1>
+    <a href="index.html">Voltar</a>
+
+
+
+    <div style="margin-left: 34%;">
+        <form action=''>
+            <strong style="font-size: 25px;">Dados pessoais</strong><br>
+            <td>Informe seu nome: <input type='text' id='nome' placeholder="nome" name='nome' style='margin-left: 15.3px;'></td><br><br>
+            <td>Informe seu telefone: <input type='text' id='telefone' placeholder="telefone" name='telefone'></td><br><br>
+            <td>Informe sua idade: <input type='number' id='idade' placeholder="idade" name='idade' style='margin-left: 18px;'></td><br><br>
+            <td>Informe Estado civil: <input type='text' id='status' placeholder="estado civil" name='status' style='margin-left: 1px;'></td><br><br>
+            <td>Informe seu salario: <input type='text' id='salario' placeholder="salario" name='salario' style='margin-left: 10px;'></td><br><br>
+            <td><input type='text' id='Imposto' placeholder="Imposto de renda" name='salario' style='margin-left: 10px; display: none;'></td><br><br>
+            <td><input type='text' id='Rg' placeholder="rg do conjugue" name='salario' style='margin-left: 10px; display: none;'></td><br><br>
+
+            
+
+            <strong style="font-size: 25px;">Endereço</strong><br>
+            <td>Informe seu CEP: <input placeholder="CEP" type='text' id='cep' name='cep' style='margin-left: 4px;'></td>
+            <input type='button' value='Consultar' onclick='findCEP()' style='font-size: 15px; margin-left: 50px;'><br><br>
+            <td>Logradouro:<input type='text' placeholder="logradouro" id='logradouro' name='endereco' style='margin-left: 42px;' size='30px'></td><br><br>
+            <td>Bairro:<input type='text' id='bairro' placeholder="bairro" name='bairro' style='margin-left: 75px;'></td><br><br>
+            <td>Cidade:<input type='text' id='cidade' placeholder="cidade" name='cidade' style='margin-left: 70px;'></td><br><br>
+            <td>Estado:<input type='text' id='uf' placeholder="estado" name='uf' style='margin-left: 73px;'></td><br><br>
+
+            <td>Inumero: <input type='text' id='numero' placeholder="numero" name='numero' style='margin-left: 57px;'></td><br><br>
+            <td>complemento:<input type='text' id='complemento' placeholder="complemento" name='complemento' style='margin-left: 28px;'></td><br>
+
+            <p id='menoridade' style="color: red; font-size: 20px;"></p>
+            <p id='IR' style="color: red; font-size: 20px;"></p>
+           
+            <td><input type='text' id='salario' name='salario' placeholder='Informe seu imposto de renda' style='margin-left: 10px; display: none;'></td><br>
+            <input type='button' id="enviar" value='Verificar' onclick='validarDados()' style='font-size: 15px; margin-left: 150px; margin-top: 30px;'><br>
+            <input type='button' id="imprima" value='Imprimir' onclick='Imprimir()' style='font-size: 15px; margin-left: 150px; margin-top: 30px; display: none;'><br>
+
+            
+
+            
+
+
+
+            
+        </form>
+    </div>
+
+    <script src='script/buscarCEP.js'></script>
+<script src='script/enviarDados.js'></script>
+    
+</body>
+
+
+</html>
+
+
+      
