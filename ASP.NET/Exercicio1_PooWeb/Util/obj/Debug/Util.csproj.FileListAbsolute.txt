@@ -1,0 +1,6 @@
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Util\bin\Debug\Util.dll
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Util\bin\Debug\Util.pdb
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Util\obj\Debug\Util.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Util\obj\Debug\Util.dll
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Util\obj\Debug\Util.pdb
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Util\obj\Debug\Util.csprojAssemblyReference.cache

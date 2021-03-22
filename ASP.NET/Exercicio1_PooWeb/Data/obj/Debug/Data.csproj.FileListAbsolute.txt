@@ -1,0 +1,11 @@
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Data\bin\Debug\Data.dll
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Data\bin\Debug\Data.pdb
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Data\bin\Debug\Model.dll
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Data\bin\Debug\Util.dll
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Data\bin\Debug\Model.pdb
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Data\bin\Debug\Util.pdb
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Data\obj\Debug\Data.csprojAssemblyReference.cache
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Data\obj\Debug\Data.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Data\obj\Debug\Data.csproj.CopyComplete
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Data\obj\Debug\Data.dll
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Data\obj\Debug\Data.pdb

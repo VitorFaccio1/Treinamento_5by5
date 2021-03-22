@@ -1,0 +1,6 @@
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Model\bin\Debug\Model.dll
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Model\bin\Debug\Model.pdb
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Model\obj\Debug\Model.dll
+C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Model\obj\Debug\Model.pdb
