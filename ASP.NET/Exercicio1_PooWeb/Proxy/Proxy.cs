@@ -29,7 +29,7 @@ namespace Proxy
             _pizzaDB.RemoverPizza(id);
         }
 
-        public List<Pizza> LocalizarPizza(int id)
+        public Pizza LocalizarPizza(int id)
         {            
             return _pizzaDB.LocalizarPizza(id);
         }
@@ -37,6 +37,11 @@ namespace Proxy
         public List<Pizza> Select()
         {
             return _pizzaDB.SelectPizza();
+        }
+
+        public void Editar(Pizza pizza)
+        {
+            _pizzaDB.Editar(pizza);
         }
 
     

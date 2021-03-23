@@ -14,7 +14,7 @@ namespace Util
         private SqlConnection conn;
         public  ConnectionDB()
         {
-            conn = new SqlConnection(ConfigurationManager.ConnectionStrings["ConexaoSQLServer"].ConnectionString);
+            conn = new SqlConnection(ConfigurationManager.ConnectionStrings["Pizza"].ConnectionString);
             conn.Open();
         }
        

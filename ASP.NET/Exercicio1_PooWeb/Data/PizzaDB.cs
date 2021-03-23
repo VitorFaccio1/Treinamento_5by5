@@ -54,15 +54,15 @@ namespace Data
             return list;
         }
 
-        public List<Pizza> LocalizarPizza(int _pizza)
+        public Pizza LocalizarPizza(int _pizza)
         {
             using (conn = new ConnectionDB())
             {
-                string sql = $"select Id_pizza,Descricao,Valor from Pizza where Id = '{_pizza}'";
+                string sql = $"select Id_pizza,Descricao,Valor from Pizza where Id_Pizza = '{_pizza}'";
 
                 var returnData = conn.ExecQueryReturn(sql);
 
-                return TransformSQLReaderToListPizza(returnData);
+                return TransformSQLReaderToListPizza(returnData)[0];
             }
         }
 
@@ -72,9 +72,19 @@ namespace Data
             {
                 string sql = $"delete from Pizza where Id_pizza = '{_pizza}'";
 
-                conn.ExecQuery(sql);
-
+                conn.ExecQuery(sql);                          
             }
         }
+
+        public void Editar(Pizza pizza)
+        {
+            using (conn = new ConnectionDB())
+            {
+                string sql = $"update Pizza set Descricao = '{pizza.Descricao}', Valor = {pizza.Valor} where Id_pizza = {pizza.Id}";
+
+                conn.ExecQuery(sql);
+            }
+        }
+
     }
 }

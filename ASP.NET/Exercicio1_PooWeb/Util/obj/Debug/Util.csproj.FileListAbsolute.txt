@@ -9,3 +9,4 @@ C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Util\bi
 C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Util\obj\Debug\Util.csproj.CoreCompileInputs.cache
 C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Util\obj\Debug\Util.dll
 C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Util\obj\Debug\Util.pdb
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Util\obj\Debug\Util.csprojAssemblyReference.cache
