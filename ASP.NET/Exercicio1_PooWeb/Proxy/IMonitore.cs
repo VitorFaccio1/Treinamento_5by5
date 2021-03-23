@@ -9,12 +9,12 @@ namespace Proxy
 {
     public interface IMonitore
     {
-        void Insert(Refeicao msg);
+        void Insert(Pizza msg);
 
         void Remover(string msg);
 
-        List<Refeicao> Localizar(string msg);
+        List<Pizza> LocalizarPizza(string msg);
 
-        List<Refeicao> Select();
+        List<Pizza> Select();        
     }
 }

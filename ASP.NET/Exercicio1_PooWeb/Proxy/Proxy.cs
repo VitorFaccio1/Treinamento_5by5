@@ -10,30 +10,31 @@ namespace Proxy
 {
     public class Proxy : IMonitore
     {
-        private RefeicaoDB _refeicaoDB;
-        public Proxy(RefeicaoDB logDB)
+        private PizzaDB _pizzaDB;
+        public Proxy(PizzaDB logDB)
         {
-            this._refeicaoDB = logDB;
+            this._pizzaDB = logDB;
         }
 
-        public void Insert(Refeicao msg)
+        public void Insert(Pizza msg)
         {
-            _refeicaoDB.Insert(msg);
+            _pizzaDB.InsertPizza(msg);
         }
 
         public void Remover(string msg)
         {
-            _refeicaoDB.Remover(msg);
+            _pizzaDB.RemoverPizza(msg);
         }
 
-        public List<Refeicao> Localizar(string msg)
+        public List<Pizza> LocalizarPizza(string msg)
         {            
-            return _refeicaoDB.Localizar(msg);
+            return _pizzaDB.LocalizarPizza(msg);
         }
 
-        public List<Refeicao> Select()
+        public List<Pizza> Select()
         {
-            return _refeicaoDB.Select();
+            return _pizzaDB.SelectPizza();
         }
+
     }
 }

@@ -66,14 +66,14 @@ namespace Exercicio1_PooWeb
             LoadTable();
         }
 
-        private void Inserir(Refeicao pizza)
+        private void Inserir(Pizza pizza)
         {
-            IMonitore proxy = new Proxy.Proxy(new RefeicaoDB());
+            IMonitore proxy = new Proxy.Proxy(new PizzaDB());
             proxy.Insert(pizza);
         }
         private void Remover(string pizza)
         {
-            IMonitore proxy = new Proxy.Proxy(new RefeicaoDB());
+            IMonitore proxy = new Proxy.Proxy(new PizzaDB());
             proxy.Remover(pizza);
             GVProcura.DataSource = null;
             GVProcura.DataBind();
@@ -88,10 +88,10 @@ namespace Exercicio1_PooWeb
         }
         
 
-        private List<Refeicao> Localizar(string msg)
+        private List<Pizza> Localizar(string msg)
         {
-            IMonitore proxy = new Proxy.Proxy(new RefeicaoDB());
-            return proxy.Localizar(msg);
+            IMonitore proxy = new Proxy.Proxy(new PizzaDB());
+            return proxy.LocalizarPizza(msg);
         }        
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -103,9 +103,9 @@ namespace Exercicio1_PooWeb
             
         }
 
-        private List<Refeicao> Select()
+        private List<Pizza> Select()
         {
-            IMonitore proxy = new Proxy.Proxy(new RefeicaoDB());
+            IMonitore proxy = new Proxy.Proxy(new PizzaDB());
             return proxy.Select();
         }
 
@@ -114,6 +114,33 @@ namespace Exercicio1_PooWeb
             GVPizza.DataSource = Select();
             GVPizza.DataBind();
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         protected void BulletedList1_Click(object sender, BulletedListEventArgs e)
         {
