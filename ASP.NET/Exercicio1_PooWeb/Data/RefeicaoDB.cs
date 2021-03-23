@@ -1,20 +1,21 @@
-﻿using Model;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Util;
+using Model;
+using System.Data.SqlClient;
+using System.Globalization;
 
 namespace Data
 {
-    public class PizzaDB
+    public class RefeicaoDB
     {
         private ConnectionDB conn;
-        public void InsertPizza(Pizza _pizza)
+        public void Insert(Refeicao refeicao)
         {
-            string sql = string.Format("insert into Pizza(Descricao, Valor) values ('{0}',{1})", _pizza.Descricao, _pizza.Valor);
+            string sql = string.Format("insert into Refeicao(Descricao, Valor) values ('{0}',{1})", refeicao.Descricao, refeicao.Valor);
 
             using (conn = new ConnectionDB())
             {
@@ -22,27 +23,27 @@ namespace Data
             }
         }
 
-        public List<Pizza> SelectPizza()
+        public List<Refeicao> Select()
         {
             using (conn = new ConnectionDB())
             {
-                string sql = "select Id_pizza,Descricao,Valor from Pizza";
+                string sql = "select Id,Descricao,Valor from Refeicao";
 
                 var returnData = conn.ExecQueryReturn(sql);
 
-                return TransformSQLReaderToListPizza(returnData);
+                return TransformSQLReaderToList(returnData);
             }
         }
 
-        private List<Pizza> TransformSQLReaderToListPizza(SqlDataReader ReturnData)
+        private List<Refeicao> TransformSQLReaderToList(SqlDataReader ReturnData)
         {
-            var list = new List<Pizza>();
+            var list = new List<Refeicao>();
 
             while (ReturnData.Read())
             {
-                var item = new Pizza()
+                var item = new Refeicao()
                 {
-                    Id = int.Parse(ReturnData["Id_pizza"].ToString()),
+                    Id = int.Parse(ReturnData["Id"].ToString()),
                     Descricao = ReturnData["Descricao"].ToString(),
                     Valor = double.Parse(ReturnData["Valor"].ToString())
                 };
@@ -53,23 +54,23 @@ namespace Data
             return list;
         }
 
-        public List<Pizza> LocalizarPizza(string _pizza)
+        public List<Refeicao> Localizar(string Refeicao)
         {
             using (conn = new ConnectionDB())
             {
-                string sql = $"select Id_pizza,Descricao,Valor from Pizza where Id = '{_pizza}'";
+                string sql = $"select Id,Descricao,Valor from Refeicao where Id = '{Refeicao}'";
 
                 var returnData = conn.ExecQueryReturn(sql);
 
-                return TransformSQLReaderToListPizza(returnData);
+                return TransformSQLReaderToList(returnData);
             }
         }
 
-        public void RemoverPizza(string _pizza)
+        public void Remover(string Refeicao)
         {
             using (conn = new ConnectionDB())
             {
-                string sql = $"delete from Pizza where Id_pizza = '{_pizza}'";
+                string sql = $"delete from Refeicao where Id = '{Refeicao}'";
 
                 conn.ExecQuery(sql);
 

@@ -6,21 +6,25 @@ using System.Web.Http;
 using System.Web.Mvc;
 using Data;
 using Model;
+using Proxy;
 
 namespace API_Exercicio.Controllers
 {
     public class PizzaController : ApiController
     {
         // GET: Pizza        
-        public IEnumerable<Refeicao> Get()
+        public IEnumerable<Pizza> Get()
         {
-            return new RefeicaoDB().Select();
+            IMonitore proxy = new Proxy.Proxy(new PizzaDB());
+            
+            return proxy.Select();
         }
-        
+
         // POST api/values
         public void Post([FromBody] Pizza pizza)
         {
-            new RefeicaoDB().Insert(pizza);
+            IMonitore proxy = new Proxy.Proxy(new PizzaDB());
+            proxy.Insert(pizza);
         }
     }
 }

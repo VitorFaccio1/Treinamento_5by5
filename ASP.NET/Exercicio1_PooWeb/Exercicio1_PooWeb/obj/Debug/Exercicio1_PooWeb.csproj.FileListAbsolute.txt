@@ -65,7 +65,3 @@ C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Exercicio1_PooWeb\bin\Data.
 C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Exercicio1_PooWeb\bin\Util.pdb
 C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Exercicio1_PooWeb\bin\Proxy.dll
 C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Exercicio1_PooWeb\bin\Proxy.pdb
-C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Exercicio1_PooWeb\obj\Debug\Exercicio1_PooWeb.csprojAssemblyReference.cache
-C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Exercicio1_PooWeb\obj\Debug\Exercicio1_PooWeb.csproj.CoreCompileInputs.cache
-C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Exercicio1_PooWeb\obj\Debug\Exercicio1_PooWeb.dll
-C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Exercicio1_PooWeb\obj\Debug\Exercicio1_PooWeb.pdb

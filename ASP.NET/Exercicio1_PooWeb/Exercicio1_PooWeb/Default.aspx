@@ -69,8 +69,8 @@
                     <asp:Button ID="Button1" runat="server" Height="50px" OnClick="Button1_Click2" Text="Remover" Width="125px" />
                 </td>
                 <td class="auto-style3">
-                    <asp:Button ID="BtnPizza" runat="server" Height="55px" OnClick="Button1_Click1" Text="Pedir Pizza" Width="124px" />
-                    <asp:Button ID="BtnProcurar" runat="server" Height="52px" OnClick="Button1_Click" Text="Procurar" Width="115px" />
+                    <asp:Button ID="BtnPizza" runat="server" Height="50px" OnClick="Button1_Click1" Text="Pedir Pizza" Width="125px" />
+                    <asp:Button ID="BtnProcurar" runat="server" Height="49px" OnClick="Button1_Click" Text="Procurar" Width="112px" />
                 </td>
                 <td>
                     &nbsp;</td>

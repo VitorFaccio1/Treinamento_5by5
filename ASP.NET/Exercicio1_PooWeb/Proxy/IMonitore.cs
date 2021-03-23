@@ -11,13 +11,10 @@ namespace Proxy
     {
         void Insert(Pizza msg);
 
-        void Remover(int id);
+        void Remover(string msg);
 
-        Pizza LocalizarPizza(int id);
+        List<Pizza> LocalizarPizza(string msg);
 
-        List<Pizza> Select();
-
-        void Editar(Pizza pizza);
-
+        List<Pizza> Select();        
     }
 }
