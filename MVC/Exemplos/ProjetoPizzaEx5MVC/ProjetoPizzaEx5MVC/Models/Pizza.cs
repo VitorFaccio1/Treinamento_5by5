@@ -5,12 +5,8 @@ using System.Web;
 
 namespace ProjetoPizzaEx5MVC.Models
 {
-    public class Pizza
+    public class Pizza : Refeicao
     {
-        public int Id { get; set; }
-
-        public string Nome { get; set; }
-
-        public decimal Valor { get; set; }
+       
     }
 }
