@@ -34,7 +34,8 @@ namespace Data
             }
         }
 
-        private List<Pizza> TransformSQLReaderToListPizza(SqlDataReader ReturnData)
+    
+        public List<Pizza> TransformSQLReaderToListPizza(SqlDataReader ReturnData)
         {
             var list = new List<Pizza>();
 
@@ -53,7 +54,7 @@ namespace Data
             return list;
         }
 
-        public List<Pizza> LocalizarPizza(string _pizza)
+        public List<Pizza> LocalizarPizza(int _pizza)
         {
             using (conn = new ConnectionDB())
             {
@@ -65,7 +66,7 @@ namespace Data
             }
         }
 
-        public void RemoverPizza(string _pizza)
+        public void RemoverPizza(int _pizza)
         {
             using (conn = new ConnectionDB())
             {

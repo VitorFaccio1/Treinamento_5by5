@@ -11,3 +11,16 @@ C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Proxy\obj\Debug\Proxy.cspro
 C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Proxy\obj\Debug\Proxy.csproj.CopyComplete
 C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Proxy\obj\Debug\Proxy.dll
 C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Proxy\obj\Debug\Proxy.pdb
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Proxy\bin\Debug\Proxy.dll
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Proxy\bin\Debug\Proxy.pdb
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Proxy\bin\Debug\Data.dll
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Proxy\bin\Debug\Model.dll
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Proxy\bin\Debug\Util.dll
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Proxy\bin\Debug\Data.pdb
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Proxy\bin\Debug\Model.pdb
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Proxy\bin\Debug\Util.pdb
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Proxy\obj\Debug\Proxy.csprojAssemblyReference.cache
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Proxy\obj\Debug\Proxy.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Proxy\obj\Debug\Proxy.csproj.CopyComplete
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Proxy\obj\Debug\Proxy.dll
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Proxy\obj\Debug\Proxy.pdb

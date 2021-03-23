@@ -4,3 +4,8 @@ C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Model\obj\Debug\Model.cspro
 C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Model\obj\Debug\Model.dll
 C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Model\obj\Debug\Model.pdb
 C:\Users\Vitor Faccio\source\repos\Exercicio1_PooWeb\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Model\bin\Debug\Model.dll
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Model\bin\Debug\Model.pdb
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Model\obj\Debug\Model.dll
+C:\Users\Vitor Faccio\Desktop\treinamento_5by5\ASP.NET\Exercicio1_PooWeb\Model\obj\Debug\Model.pdb

@@ -5,11 +5,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Util;
 
 namespace Proxy
 {
     public class Proxy : IMonitore
     {
+        private ConnectionDB conn;
+
         private PizzaDB _pizzaDB;
         public Proxy(PizzaDB logDB)
         {
@@ -21,20 +24,24 @@ namespace Proxy
             _pizzaDB.InsertPizza(msg);
         }
 
-        public void Remover(string msg)
+        public void Remover(int id)
         {
-            _pizzaDB.RemoverPizza(msg);
+            _pizzaDB.RemoverPizza(id);
         }
 
-        public List<Pizza> LocalizarPizza(string msg)
+        public List<Pizza> LocalizarPizza(int id)
         {            
-            return _pizzaDB.LocalizarPizza(msg);
+            return _pizzaDB.LocalizarPizza(id);
         }
 
         public List<Pizza> Select()
         {
             return _pizzaDB.SelectPizza();
         }
+
+    
+
+
 
     }
 }
