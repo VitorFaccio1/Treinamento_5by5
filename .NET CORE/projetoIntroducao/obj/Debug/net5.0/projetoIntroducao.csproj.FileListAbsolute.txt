@@ -1,0 +1,16 @@
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\bin\Debug\net5.0\projetoIntroducao.exe
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\bin\Debug\net5.0\projetoIntroducao.deps.json
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\bin\Debug\net5.0\projetoIntroducao.runtimeconfig.json
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\bin\Debug\net5.0\projetoIntroducao.runtimeconfig.dev.json
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\bin\Debug\net5.0\projetoIntroducao.dll
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\bin\Debug\net5.0\ref\projetoIntroducao.dll
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\bin\Debug\net5.0\projetoIntroducao.pdb
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\obj\Debug\net5.0\projetoIntroducao.csprojAssemblyReference.cache
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\obj\Debug\net5.0\projetoIntroducao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\obj\Debug\net5.0\projetoIntroducao.AssemblyInfoInputs.cache
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\obj\Debug\net5.0\projetoIntroducao.AssemblyInfo.cs
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\obj\Debug\net5.0\projetoIntroducao.csproj.CoreCompileInputs.cache
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\obj\Debug\net5.0\projetoIntroducao.dll
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\obj\Debug\net5.0\ref\projetoIntroducao.dll
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\obj\Debug\net5.0\projetoIntroducao.pdb
+C:\Users\Vitor Faccio\Desktop\.net Core\projetoIntroducao\obj\Debug\net5.0\projetoIntroducao.genruntimeconfig.cache
